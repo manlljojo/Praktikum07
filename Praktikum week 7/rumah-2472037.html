@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rumah-2472037</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+        .carousel-caption{
+            background: rgba(0, 0, 0, 0);
+            padding: 1rem;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: gray;
+            object-fit: cover;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- ini navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="img/rumahlogo.jpg" alt="Breeze" width="35" height="35" style="border-radius: 50%;">
+            Breeze Housing Complex
+            </a>
+            <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li>
+                    <a class="nav-link text-light" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link text-light" href="#katalog">Katalog Rumah</a>
+                </li>
+                <li>
+                    <a class="nav-link text-light" href="#footer">About</a>
+                </li>
+                <li>
+                    Simulasi KPR
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- ini carousel -->
+    <div class="container my-5" id="home">
+        <div id="carouselRumah" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+      
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <img src="./img/rumah1.jpg" class="d-block w-100 carousel-img" alt="Breezy Minimalist House">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Breezy Minimalist House</h5>
+                <p>Sebuah rumah yang minimalis namun luas dengan harga terjangkau untuk keluarga kecil yang bahagia.</p>
+              </div>
+            </div>
+      
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <img src="./img/rumah2.jpg" class="d-block w-100 carousel-img" alt="Modern Standard House">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Modern Standard House</h5>
+                <p>Rumah dengan desain modern, cocok untuk keluarga dengan kebutuhan ruang yang lebih.</p>
+              </div>
+            </div>
+      
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <img src="./img/rumah3.jpg" class="d-block w-100 carousel-img" alt="Luxury Premium House">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Luxury Premium House</h5>
+                <p>Hunian mewah dengan fasilitas lengkap untuk kenyamanan maksimal.</p>
+              </div>
+            </div>
+          </div>
+    <!-- end of carousel -->
+    
+    <!--  card contents -->
+    <div class="container mt-5" >
+        <h2 class="text-center mb-4" id="katalog">Katalog Rumah</h2>
+        <div class="row">
+            <!-- Rumah 1 -->            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/rumah1.jpg" class="card-img-top" alt="Tipe Minimalis">
+                    <div class="card-body">
+                        <h5 class="card-title">Tipe Minimalis</h5>
+                        <div class="badge mb-2" style="background-color: green;">Rp 850 Juta</div>
+                        <p class="...">Rumah minimalis dengan 2 kamar tidur, 1 kamar mandi, dapur, ruang tamu, dan carport. Cocok untuk keluarga kecil atau pasangan baru.</p>
+                        <ul class="...">
+                            <li class="list-group-item">Luas Tanah: 90m²</li>
+                            <li class="list-group-item">Luas Bangunan: 45m²</li>
+                            <li class="list-group-item">2 Kamar Tidur</li>
+                        </ul>
+                        <a href="#" class="btn btn-info text-white">More Info</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rumah 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/rumah2.jpg" class="card-img-top" alt="Tipe Standard">
+                    <div class="card-body">
+                        <h5 class="card-title">Tipe Standard</h5>
+                        <div class="badge mb-2" style="background-color: green;">Rp 1.2 Milyar</div>
+                        <p class="...">Rumah keluarga dengan 3 kamar tidur, 2 kamar mandi, ruang keluarga luas, dapur modern, dan carport untuk 2 mobil.</p>
+                        <ul class="...">
+                            <li class="list-group-item">Luas Tanah: 120m²</li>
+                            <li class="list-group-item">Luas Bangunan: 90m²</li>
+                            <li class="list-group-item">3 Kamar Tidur</li>
+                        </ul>
+                        <a href="#" class="btn btn-info text-white">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Rumah 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/rumah3.jpg" class="card-img-top" alt="Tipe Premium">
+                    <div class="card-body">
+                        <h5 class="card-title">Tipe Premium</h5>
+                        <div class="badge mb-2" style="background-color: green;">Rp 1.8 Milyar</div>
+                        <p class="...">Rumah mewah dengan 4 kamar tidur, 3 kamar mandi, ruang keluarga, ruang kerja, dapur modern, taman belakang, dan garasi untuk 2 mobil.</p>
+                        <ul class="...">
+                            <li class="list-group-item">Luas Tanah: 180m²</li>
+                            <li class="list-group-item">Luas Bangunan: 150m²</li>
+                            <li class="list-group-item">4 Kamar Tidur</li>
+                        </ul>
+                        <a href="#" class="btn btn-info text-white">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of cards -->
+    
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row text-center text-md-start">
+              <div class="col-md-4 mb-4">
+                <img src="./img/rumahlogo.jpg" class="mb-3 rounded-circle" alt="Logo">
+                <h5>Breeze Housing Complex</h5>
+                <p>Perumahan modern dengan lingkungan asri dan udara segar untuk kehidupan keluarga yang nyaman dan bahagia.</p>
+                <p>Jl. Breeze No. 123, Kota Bandung<br>Telp: 031-1234567</p>
+              </div>
+              <div class="col-md-4 mb-4">
+                <h5>Tipe Rumah</h5>
+                <ul class="list-unstyled">
+                  <li>Tipe Studio<br><small>Mulai Rp 600 Juta</small></li>
+                  <li class="mt-2">Tipe Minimalis<br><small>Mulai Rp 850 Juta</small></li>
+                  <li class="mt-2">Tipe Standard<br><small>Mulai Rp 1.2 Milyar</small></li>
+                  <li class="mt-2">Tipe Premium<br><small>Mulai Rp 1.8 Milyar</small></li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-4">
+                <h5>Hubungi Kami</h5>
+                <form>
+                  <div class="mb-2">
+                    <input type="text" class="form-control" placeholder="Nama">
+                  </div>
+                  <div class="mb-2">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="mb-2">
+                    <textarea class="form-control" rows="3" placeholder="Pesan"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-info text-white">Kirim</button>
+                </form>
+              </div>
+            </div>
+            <div class="text-center pt-4 border-top mt-4">
+              <small>&copy; 2025 Breeze Housing Complex. All Rights Reserved.</small>
+            </div>
+          </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
